@@ -41,7 +41,7 @@ flowchart LR
 **1. Connect to the EC2 instance using SSH**
 
 ```bash
-ssh -i your-key.pem ec2-user@<EC2-PUBLIC-IP>
+ssh -i your-key.pem ec2-user@3.84.223.169
 ```
 
 **2. Update the system and install Git and Node.js**
@@ -92,7 +92,7 @@ node app.js
 - A browser request to the server's public IP on port 3000.
 
 ```
-http://<3.84.223.169>:3000
+http://3.84.223.169:3000
 ```
 
 ---
@@ -102,7 +102,7 @@ http://<3.84.223.169>:3000
 - The response served by `app.js` appears in the browser at:
 
 ```
-http://<3.84.223.169>:3000
+http://3.84.223.169:3000
 ```
 
 <img width="2940" height="1912" alt="75275FC6-A7DE-4DD6-B80C-E41AD8B2E51A" src="https://github.com/user-attachments/assets/8ae311d4-3edc-404a-9cd2-23670deaedb3" />
